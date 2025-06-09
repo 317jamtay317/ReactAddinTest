@@ -33,3 +33,15 @@ function action(event: Office.AddinCommands.Event) {
 
 // Register the function with Office.
 Office.actions.associate("action", action);
+
+async function openDialog(event: Office.AddinCommands.Event) {
+  Office.context.ui.displayDialogAsync(
+    "https://localhost:3000/dialog.html",
+    { height: 40, width: 30 },
+    () => {
+      event.completed();
+    }
+  );
+}
+
+Office.actions.associate("openDialog", openDialog);

@@ -71,6 +71,10 @@ module.exports = async (env, options) => {
             to: "assets/[name][ext][query]",
           },
           {
+            from: "src/dialog/dialog.html",
+            to: "dialog.html",
+          },
+          {
             from: "manifest*.xml",
             to: "[name][ext]",
             transform(content) {
