@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"No tests specified\""
+    "test": "echo \"No tests specified\"",
+    "excel": "npx office-addin-debugging start manifest.xml"
   },
   "keywords": ["excel", "office", "addin", "react"],
   "author": "",
