@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xsi:type="TaskPaneApp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>7096c774-7d65-4fd6-8e6a-e7afb5c5f3ad</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Your Company</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="HelloReactAddin"/>
+  <SupportUrl DefaultValue="https://localhost:3000"/>
+  <Description DefaultValue="A Hello World React Add-in"/>
+  <AppDomains>
+    <AppDomain>https://localhost:3000</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
