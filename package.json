@@ -1,0 +1,14 @@
+{
+  "name": "hello-react-excel-addin",
+  "version": "1.0.0",
+  "description": "A minimal React Excel add-in example.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["excel", "office", "addin", "react"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
